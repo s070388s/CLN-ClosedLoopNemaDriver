@@ -28,21 +28,17 @@ The CLN motor driver series is an **open-source** project aimed at creating a ra
 
 - **[`wiki`](wiki)**: includes design documentation and other information
 - **[`hardware`](hardware)**: contains design source files, manufacturing files, schematics, block diagrams and 3D models
-- **[`firmware`](https://github.com/creapunk/TunePulse)**: [to be updated as the project evolves]
+
+## Firmware
+
+The following options are available:
+
+- **[CLN-SimpleFOC](https://github.com/AntonEvmenenko/CLN-SimpleFOC):** SimpleFOC based firmware for CLN. Pretty stable, ready to use
+- **[TunePulse](https://github.com/creapunk/TunePulse):** Firmware for CLN and RadiX motor drivers. Currently a work in progress; estimated release date is to be determined
 
 ## Hardware Versions
 
 #### [NEMA17 dedicated drivers](./wiki/CLN17/readme.md)
-
-- **[`V1.5`](hardware/CLN17/V1.5)** [tested]: cost-efficient version [[wiki]](./wiki/CLN17/V1.5/specification.md)
-
-  ![Preview](wiki/assets/CLN17/V1.5/CLN17-V1.5-PHOTO.JPG)
-
-  > - **Key info:** TMC2209 based, 5-25V 1.4A<sub>RMS</sub>, 15bit position feedback, single-sided assembly
-  >- **Supported interfaces:** STEP-DIR-EN, USB, CAN-FD, USART, I2C, SPI, ABZ
-  > - **Release of source files:** Released
-
-  
 
 - **[`V2.0`](hardware/CLN17/V2.0)** [tested]: high voltage version [[wiki]](./wiki/CLN17/V2.0/specification.md)
 
@@ -51,6 +47,13 @@ The CLN motor driver series is an **open-source** project aimed at creating a ra
   >- **Supported interfaces:** STEP-DIR-EN, USB, CAN-FD, USART, I2C, SPI, ABZ
   > - **Release of source files:** April 2024 (post BETA)
 
+- **[`V1.5`](hardware/CLN17/V1.5)** [tested]: cost-efficient version [[wiki]](./wiki/CLN17/V1.5/specification.md)
+
+![Preview](wiki/assets/CLN17/V1.5/CLN17-V1.5-PHOTO.JPG)
+
+  > - **Key info:** TMC2209 based, 5-25V 1.4A<sub>RMS</sub>, 15bit position feedback, single-sided assembly
+  >- **Supported interfaces:** STEP-DIR-EN, USB, CAN-FD, USART, I2C, SPI, ABZ
+  > - **Release of source files:** Released
 
 ##### OBSOLETE 
 
